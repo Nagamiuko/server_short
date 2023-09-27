@@ -30,7 +30,6 @@ link : [https://github.com/Nagamiuko/server_short.git](https://github.com/Nagami
 
 ## Learn More
 
-สามารถดู demo ได้ที่ linK : [https://short-link-wheat.vercel.app/](https://short-link-wheat.vercel.app/)\
 ถ้าคุณสนใจที่จะนำโปรเจคนี้ไปพัฒนาต่อ สามารถดาวน์โหลดได้ที่ GitHup ของผมได้เลย 
 
 ## Setup Database MongoDB 
