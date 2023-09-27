@@ -23,3 +23,13 @@ export const getAllHisLink = async (req, res) => {
     console.log(err);
   }
 };
+export const getIDHisLink = async (req, res) => {
+    const id = req.parme.id
+  try {
+    const datahistory = await history_model.findByI(id);
+    res.status(201).json({ success: true, datahistory });
+  } catch (err) {
+    res.status(404).json({ message: "No Data!" });
+    console.log(err);
+  }
+};
