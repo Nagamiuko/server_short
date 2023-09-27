@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 const {Schema} = mongoose;
 
 const History_Link = new mongoose.Schema({
-    full_link:{
+    original_link:{
       type:String,
       default:""
     },
